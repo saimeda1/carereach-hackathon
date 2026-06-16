@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Databricks
+.databrickscfg
+*.db
+*.log
+mlruns/
+mlflow/
+
+# Data files (too large for Git)
+*.csv
+*.parquet
+*.json
+*.xlsx
+*.xls
+data/raw/
+data/processed/
+
+# Secrets
+.env
+.env.local
+secrets/
+*.pem
+*.key
+config/secrets.yaml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Documentation build
+docs/_build/
+site/
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+.cache/

@@ -1,0 +1,33 @@
+# Databricks App Configuration
+# CareReach Healthcare Planning Agent — DAIS for Good 2026, Track 2
+
+command:
+  - "gradio"
+  - "app.py"
+
+resources:
+  - name: carereach-planning-agent
+    type: serving-endpoint
+    permission: CAN_QUERY
+
+  - name: 4997437721116114
+    type: sql-warehouse
+    permission: CAN_USE
+
+  - name: workspace.carereach_gold.gold_care_gap_analysis
+    type: table
+    permission: SELECT
+
+  - name: workspace.carereach_gold.gold_facility_trust_aggregates
+    type: table
+    permission: SELECT
+
+  - name: workspace.carereach_gold.gold_demand_supply_overlay
+    type: table
+    permission: SELECT
+
+env:
+  - name: ENDPOINT_NAME
+    value: carereach-planning-agent
+  - name: SQL_WAREHOUSE_ID
+    value: 4997437721116114

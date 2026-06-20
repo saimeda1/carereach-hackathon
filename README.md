@@ -223,5 +223,5 @@ Healthcare planners in India must allocate limited resources across:
 
 ### Demo Video
 
-🎥 **[Watch Demo Video](https://youtu.be/YOUR_VIDEO_LINK)** *(5-minute walkthrough)*
+🎥 **[Watch Demo Video](https://youtu.be/Qqc8unLr3sY)** 
 

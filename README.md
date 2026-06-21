@@ -6,7 +6,9 @@
 
 > **🏆 Submission for Databricks Apps & Agents Hackathon
 
+### Demo Video
 
+🎥 **[Watch Demo Video](https://youtu.be/Qqc8unLr3sY)** 
 
 ## 🎯 Overview
 
@@ -136,11 +138,6 @@ Healthcare planners in India must allocate limited resources across:
 - Demand-supply overlay analysis
 - Interactive filtering and drill-down
 
-## 🎨 Demo & Screenshots
-
-### Live App
-🔗 **[Try CareReach Live](https://carereach-7474652242185268.aws.databricksapps.com)** *(requires permissions)*
-
 
 ## 🔧 Technical Implementation
 
@@ -219,9 +216,4 @@ Healthcare planners in India must allocate limited resources across:
 - **MLflow** for agent framework and model serving
 - **Gradio** for rapid app prototyping
 - **Plotly** for interactive visualizations
-
-
-### Demo Video
-
-🎥 **[Watch Demo Video](https://youtu.be/Qqc8unLr3sY)** 
 
